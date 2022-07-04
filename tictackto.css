@@ -1,0 +1,60 @@
+body{
+    display: flex;
+  justify-content: center;
+   align-items: center;
+   
+
+}
+.cont{
+    text-align: center;
+    margin-top: 50px;
+    height: 450px;
+    width: 450px;
+    position: relative;
+
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 450px;
+   
+   
+}
+#s1{
+    position: absolute;
+    display: none;
+}
+.div{
+    text-align: center;
+    height: 150px;
+    width: 142px;
+   font-size: 80px;
+   font-family: 'Yeseva One', cursive;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+    border: 2px solid rgb(253, 250, 250);
+    color:#32CD32;
+    background-color: #d3d3d3;
+    
+}
+.div:hover{
+    border-color: black;
+    background-color: rgb(220, 188, 249);
+}
+#clr{
+    display: flex;
+  justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 30px;
+}
+#winner{
+    height: 50px;
+    font-size: large;
+}
