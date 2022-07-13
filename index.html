@@ -14,8 +14,8 @@
 </head>
 <body>
 <div class="cont">
-    <input type="text" value="Player-1"></input>
-    <input type="text" value="Player-2"></input><br>
+    <input type="text" placeholder="Player-1" class="Name"></input>
+    <input type="text" placeholder="Player-2" class="name"></input><br>
     X:<span  class="user1">0</span>
     O:<span  class="user2">0</span><br>
     <div id="winner" class="alert alert-info alert-dismissible fade show"> </div>
@@ -31,10 +31,11 @@
     <div class="div" id="5"></div>
     <div class="div" id="6"></div>
     <div class="div" id="7"></div>
-    <div class="div" id="8"></div>
+    <div class="div" id="8"></div><marquee behavior="" direction=""></marquee>
     </div>
     <div id="clr">
     <button type="submit" value="clear" onclick="clrData()" class="btn btn-dark btn-sm">ResetGame</button>
+    <button type="submit" value="clear" onclick="restartGame()" class="btn btn-primary btn-sm">RestartGame</button>
     </div>
   
     </div>
