@@ -65,7 +65,7 @@ setVal(e.target);
             let [a,b,c]=problem[x];
             if(state[a]==state[b]&&state[b]==state[c])
             {
-              winnerDiv.innerHTML=tryOut?`<marquee  scrollamount="5" direction="right">${z.value} is Winner O</marquee>`:`<marquee scrollamount="5" direction="right">${y.value} is winner X</marquee>`;
+              winnerDiv.innerHTML=tryOut?`<marquee  scrollamount="5" direction="right">${z.value} is Winner O...!</marquee>`:`<marquee scrollamount="5" direction="right">${y.value} is winner X...!</marquee>`;
               gameDisable();
               checkCount(tryOut);
               showWinner( problem[x]);
