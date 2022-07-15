@@ -137,6 +137,8 @@ setVal(e.target);
                     winnerDiv.innerHTML="";
                     document.querySelector(".user2").innerHTML="";
                     document.querySelector(".user1").innerHTML="";
+                    user1=0;
+                    user2=0;
                     y.value="";
                     z.value="";
                     x.style.display = "none";
